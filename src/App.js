@@ -6,11 +6,13 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 
-const HostsPage = () => (
-  <h1>
-    Hats Page
-  </h1>
-)
+import ShopPage from './pages/shop/shop.component'
+
+// const HostsPage = () => (
+//   <h1>
+//     Hats Page
+//   </h1>
+// )
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
 
       <Switch>
         <Route exact path = '/' component = {HomePage} /> 
-        <Route exact path = '/hats' component = {HostsPage} /> 
+        <Route exact path = '/shop' component = {ShopPage} /> 
       </Switch>
 
     </div>
